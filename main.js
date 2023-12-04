@@ -29,19 +29,19 @@ e.preventDefault(); // Evita que la página se recargue
 // Muestra el nombre del usuario en la página
     document.getElementById('usuario').textContent = nombre + ' ' + apellido;
 // Oculta el formulario y muestra el juego
-    document.getElementById('userForm').style.display = 'none';
-    document.getElementById('juego').style.display = 'block';
-    document.getElementById('usuario').style.display = ' block';
-    document.getElementById('cronometro').style.display = 'block';
-    document.getElementById('contadorProblemas').style.display = 'block';
-    document.getElementById('puntos').style.display = 'block';
-    document.getElementById('problema').style.display = 'block';
-    document.getElementById('respuesta').style.display = 'block';
-    document.getElementById('tecladoNumerico').style.display = 'block';
-    document.getElementById('borrar').style.display = 'block';
-    document.getElementById('enviarRespuesta').style.display = 'block';
-    document.getElementById('mensaje').style.display = 'block';
-    document.getElementById('tituloJuegos').style.display = 'block'
+document.getElementById('userForm').style.display = 'none';
+document.getElementById('juego').style.display = 'block';
+document.getElementById('usuario').style.display = ' block';
+document.getElementById('cronometro').style.display = 'block';
+document.getElementById('contadorProblemas').style.display = 'block';
+document.getElementById('puntos').style.display = 'block';
+document.getElementById('problema').style.display = 'block';
+document.getElementById('respuesta').style.display = 'block';
+document.getElementById('tecladoNumerico').style.display = 'block';
+document.getElementById('borrar').style.display = 'block';
+document.getElementById('enviarRespuesta').style.display = 'block';
+document.getElementById('mensaje').style.display = 'block';
+document.getElementById('tituloJuegos').style.display = 'block'
 
 // Inicia el cronómetro
     inicio = Date.now();
